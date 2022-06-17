@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HOD.master.cs" Inherits="WebAppVNR.HOD" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style="width: 100%; background-color: Orange; text-align: center; border-style: solid;
+        border-radius: 20px">
+        <tr>
+            <td>
+                Welcome To VNR Web Application
+            </td>
+        </tr>
+    </table>
+    <table style="width: 100%; background-color: Yellow; text-align: center; border-style: solid;
+        border-radius: 20px">
+        <tr>
+            <td>
+                <a href="HODHome.aspx">Home</a>
+            </td>
+            <td>
+                <a href="#">Upload Marks</a>
+            </td>
+            <td>
+                <a href="#">Upload Books</a>
+            </td>
+            <td>
+                <a href="#">Upload Results</a>
+            </td>
+            <td>
+                <a href="login.aspx">Logout</a>
+            </td>
+        </tr>
+    </table>
+    <div style="border-style: solid; padding: 20px; margin: 20px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <%--body--%>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.master.cs" Inherits="WebAppVNR.Student1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style="width: 100%; background-color: Orange; text-align: center; border-style: solid;
+        border-radius: 20px">
+        <tr>
+            <td>
+                Welcome To VNR Web Application  <asp:Label ID="lbl" runat="server"></asp:Label>
+            </td>
+        </tr>
+    </table>
+    <table style="width: 100%; background-color: Yellow; text-align: center; border-style: solid;
+        border-radius: 20px">
+        <tr>
+            <td>
+                <a href="StudentHome.aspx">Home</a>
+            </td>
+            <td>
+                <a href="UserDetails.aspx">User Details</a>
+            </td>
+            <td>
+                <a href="Validations.aspx">Validations</a>
+            </td>
+            <td>
+                <a href="CountryState.aspx">Country State DDL Ex</a>
+            </td>
+            <td>
+                <a href="#">Results</a>
+            </td>
+            <td>
+            <asp:LinkButton ID="link" runat="server" Text="Logout" onclick="link_Click"></asp:LinkButton>
+                
+            </td>
+        </tr>
+    </table>
+    <div style="border-style: solid; padding: 20px; margin: 20px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <%--body--%>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+c:\users\moin\documents\visual studio 2010\Projects\WebAppVNR\WebAppVNR\bin\WebAppVNR.dll
+c:\users\moin\documents\visual studio 2010\Projects\WebAppVNR\WebAppVNR\bin\WebAppVNR.pdb
+c:\users\moin\documents\visual studio 2010\Projects\WebAppVNR\WebAppVNR\obj\Debug\WebAppVNR.dll
+c:\users\moin\documents\visual studio 2010\Projects\WebAppVNR\WebAppVNR\obj\Debug\WebAppVNR.pdb
+C:\Users\hp\Documents\Visual Studio 2019\Projects\WebAppVNR\WebAppVNR\WebAppVNR\bin\WebAppVNR.dll
+C:\Users\hp\Documents\Visual Studio 2019\Projects\WebAppVNR\WebAppVNR\WebAppVNR\bin\WebAppVNR.pdb
+C:\Users\hp\Documents\Visual Studio 2019\Projects\WebAppVNR\WebAppVNR\WebAppVNR\obj\Debug\WebAppVNR.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\Visual Studio 2019\Projects\WebAppVNR\WebAppVNR\WebAppVNR\obj\Debug\WebAppVNR.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\Visual Studio 2019\Projects\WebAppVNR\WebAppVNR\WebAppVNR\obj\Debug\WebAppVNR.dll
+C:\Users\hp\Documents\Visual Studio 2019\Projects\WebAppVNR\WebAppVNR\WebAppVNR\obj\Debug\WebAppVNR.pdb
